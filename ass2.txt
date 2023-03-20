@@ -1,0 +1,175 @@
+admin@TCOERITPL-3-16 MINGW64 ~
+$ cd ~/TE/
+bash: cd: /c/Users/admin/TE/: No such file or directory
+
+admin@TCOERITPL-3-16 MINGW64 ~
+$ pwd
+/c/Users/admin
+
+admin@TCOERITPL-3-16 MINGW64 ~
+$ cd TE
+bash: cd: TE: No such file or directory
+
+admin@TCOERITPL-3-16 MINGW64 ~
+$ cd C:\Users\admin\Desktop
+bash: cd: C:UsersadminDesktop: No such file or directory
+
+admin@TCOERITPL-3-16 MINGW64 ~
+$ cd..
+bash: cd..: command not found
+
+admin@TCOERITPL-3-16 MINGW64 ~
+$ cd ..
+
+admin@TCOERITPL-3-16 MINGW64 /c/Users
+$ cd ..
+
+admin@TCOERITPL-3-16 MINGW64 /c
+$ cd TE
+bash: cd: TE: No such file or directory
+
+admin@TCOERITPL-3-16 MINGW64 /c
+$ cd TE
+bash: cd: TE: No such file or directory
+
+admin@TCOERITPL-3-16 MINGW64 /c
+$ cd /c/TE/
+bash: cd: /c/TE/: No such file or directory
+
+admin@TCOERITPL-3-16 MINGW64 /c
+$ cd TE/
+bash: cd: TE/: No such file or directory
+
+admin@TCOERITPL-3-16 MINGW64 /c
+$ cd C:\Users\admin\Desktop
+bash: cd: C:UsersadminDesktop: No such file or directory
+
+admin@TCOERITPL-3-16 MINGW64 /c
+$ cd Users/
+
+admin@TCOERITPL-3-16 MINGW64 /c/Users
+$ cd admin/
+
+admin@TCOERITPL-3-16 MINGW64 ~
+$ cd Desktop/
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop
+$ cd TE/
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE
+$ $ git init -b main
+bash: $: command not found
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE
+$ ^C
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE
+$  git init -b main
+Initialized empty Git repository in C:/Users/admin/Desktop/TE/.git/
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$ git add .
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$ git add --all
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   main.js
+
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$ git commit -m
+error: switch `m' requires a value
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$ git commit -m "First commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'admin@TCOERITPL-3-16.(none)')
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$ ^C
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$  git config --global user.email "shrutijangalgi2002@gmail.com.com"
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$ ^C
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$  git commit -m "First commit"
+[main (root-commit) ae4c37a] First commit
+ 2 files changed, 180 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$  git remote add origin  < git remote add origin  <REMOTE_URL> >
+bash: syntax error near unexpected token `>'
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$  git remote add origin  < git remote add <https://github.com/shruti8825/WAD.git>
+bash: syntax error near unexpected token `newline'
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$  git remote add origin  < git remote add <https://github.com/shruti8825/WAD.git>
+bash: syntax error near unexpected token `newline'
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$  git remote add origin  < git remote add <https://github.com/shruti8825/WAD.git>
+bash: syntax error near unexpected token `newline'
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$ git branch -M main
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$ git remote add origin https://github.com/shruti8825/WAD.git
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$ git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.06 KiB | 1.03 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/shruti8825/WAD.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$ git remote add origin https://github.com/shruti8825/WAD.git
+error: remote origin already exists.
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$ git branch -M main
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$ ^C
+
+admin@TCOERITPL-3-16 MINGW64 ~/Desktop/TE (main)
+$
